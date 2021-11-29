@@ -1,0 +1,127 @@
+.page-thirdpartyded{
+
+
+    .userprofile{
+        margin: 0 auto;
+        display: block;
+        #photo{
+            margin: 0 auto;
+            display: block;
+            margin-top: 20px;
+            width: 200px;
+            height: 200px;
+            object-fit: contain;
+            border: 1px solid #F1F2FB;
+        }
+        #code{
+            margin: 0 auto;
+            display: block;
+            width: 200px;
+            margin-top: 5px;
+            height: 4vh;
+            background-color: #F1F2FB;
+            text-align: center;
+            font-size: large;
+            padding-top: 5px;
+        }
+    }
+    .rightside{
+        margin-top: 20px;
+        font-size: 1em;
+        padding: 0 2vw;
+        padding-bottom: 2vh;
+        .table-block{
+            width: 100%;
+            // margin-top: 4vh;
+            tr{
+                td{
+                    padding-bottom: 8px;
+                    padding-top:8px ;
+                }
+            };
+            th{
+                font-weight:600;
+            }
+        }
+    }
+    .bottom-block{
+        padding-top: 1vh;
+    }
+    *[padding-right]{
+        padding-right:4vw;
+    }
+    .nav-tabs {
+        padding-top: 1vh;
+        a{
+            background-color: var(--light);
+            color: var(--dark) !important;
+            margin-right: 5px;
+            padding: 10px 20px;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px 5px 0 0;
+            font-weight: 300;
+        }
+        .active{
+            color: white !important;
+            background-color: var(--blue);
+        }
+    }
+    .nav-tabs {
+        border-bottom: 1px solid transparent;
+    }
+    .tab-content{
+        margin-top: 5px;
+        padding-top: 4vh;
+    }
+
+
+    .heading_{
+		text-align: center;
+		// margin-bottom: 2em;
+	}
+
+	.table_margin{
+		margin-top: 2em;
+	}
+
+    select{
+        height: calc(1.5em + 0.75rem + 2px) !important;
+    }  
+
+    
+    .search_icon{
+        color: #28a745;
+    }
+    
+    .search_btn{
+        background: white;
+        border: solid 1px #51b072;
+        height: 2.3em;
+    }
+    
+    .search_select{
+        border: solid 1px #51b072 !important;
+    
+        border-right-color: rgb(81, 176, 114);
+        border-right-style: solid;
+        border-right-width: 1px;
+    
+        border-right: none !important;
+    }
+
+    .total_deduction{
+        float: right;
+        margin-top: 1em;    
+    }
+
+    .details_btn{
+        border: 1px solid #0f9206;
+        color: #088a00;
+    }
+
+    .border_top{
+        padding-top: 2em;
+        margin-top: 1em;
+    }
+}

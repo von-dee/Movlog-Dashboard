@@ -1,0 +1,146 @@
+.page-myafordability .userprofile {
+    margin: 0 auto;
+    display: block;
+}
+
+.page-myafordability .userprofile #photo {
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border: 1px solid #f1f2fb;
+}
+
+.page-myafordability .userprofile #code {
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    margin-top: 5px;
+    height: 4vh;
+    background-color: #f1f2fb;
+    text-align: center;
+    font-size: large;
+    padding-top: 5px;
+}
+
+.page-myafordability .rightside {
+    margin-top: 20px;
+    font-size: 1em;
+    padding: 0 2vw;
+    padding-bottom: 6vh;
+}
+
+.page-myafordability .rightside .table-block {
+    width: 100%;
+    margin-top: 4vh;
+}
+
+.page-myafordability .rightside .table-block tr td {
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.page-myafordability .rightside .table-block th {
+    font-weight: 600;
+}
+
+.page-myafordability .bottom-block {
+    padding-top: 1vh;
+}
+
+.page-myafordability *[padding-right] {
+    padding-right: 4vw;
+}
+
+.page-myafordability .nav-tabs {
+    padding-top: 1vh;
+}
+
+.page-myafordability .nav-tabs a {
+    background-color: var(--light);
+    color: var(--dark) !important;
+    margin-right: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px 5px 0 0;
+    font-weight: 300;
+}
+
+.page-myafordability .nav-tabs .active {
+    color: white !important;
+    background-color: var(--blue);
+}
+
+.page-myafordability .nav-tabs {
+    border-bottom: 1px solid transparent;
+}
+
+.page-myafordability .tab-content {
+    margin-top: 5px;
+    padding-top: 4vh;
+}
+
+.page-thirdpartyded .rightside{
+        margin-top: 20px;
+        font-size: 1em;
+        padding: 0 2vw;
+        padding-bottom: 2vh;
+    
+    }
+
+.page-thirdpartyded .rightside .table-block{
+    width: 100%;
+}
+
+.page-thirdpartyded .rightside .table-block tr{
+}
+ 
+.page-thirdpartyded .rightside .table-block tr td{
+    padding-bottom: 8px;
+    padding-top:8px ;
+}
+
+.page-thirdpartyded .rightside .table-block tr th{
+    font-weight:600;
+}
+
+.heading_{
+    text-align: center;
+}
+
+.table_margin{
+    margin-top: 2em;
+}
+
+select{
+    height: calc(1.5em + 0.75rem + 2px) !important;
+}  
+
+
+.search_icon{
+    color: #28a745;
+}
+
+.search_btn{
+    background: white;
+    border: solid 1px #51b072;
+    height: 2.3em;
+}
+
+.search_select{
+    border: solid 1px #51b072 !important;
+
+    border-right-color: rgb(81, 176, 114);
+    border-right-style: solid;
+    border-right-width: 1px;
+
+    border-right: none !important;
+}
+
+.total_deduction{
+    float: right;
+    margin-top: 1em;    
+}

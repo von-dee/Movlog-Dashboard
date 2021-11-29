@@ -1,0 +1,100 @@
+.page-login {
+    // background: #007bff;
+    // background: linear-gradient(to right, #0062E6, #33AEFF);
+    background-image: url(../../media/img/login-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    :root {
+        --input-padding-x: 1.5rem;
+        --input-padding-y: .75rem;
+    }
+    input{
+        height: 50px !important;
+        padding-left: 20px !important;
+        border-radius: 5rem !important;
+        margin-bottom: 15px;
+    }
+
+    .turing{
+        .reload{
+            position: absolute;
+            display: block;
+            font-size: 0.6em;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 50px;
+            background: #0079FF;
+            margin-top: -3px;
+            z-index: 1;
+            text-decoration: none;
+        }
+    }
+
+    .card{
+        background: rgba(255, 255, 255, 0.98);
+    }
+    .card-signin {
+        border: 0;
+        border-radius: 1rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    }
+
+    .card-signin .card-title {
+        margin-bottom: 2rem;
+        font-weight: 300;
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .card-signin .card-body {
+        padding:4rem 2rem;
+    }
+
+    .form-signin {
+        width: 100%;
+    }
+    .magine-5{
+        margin-top: 5%;
+    }
+    .form-signin .btn {
+        font-size: 80%;
+        border-radius: 5rem;
+        letter-spacing: .1rem;
+        font-weight: bold;
+        padding: 1rem;
+        transition: all 0.2s;
+    }
+
+    /* Fallback for Edge
+      -------------------------------------------------- */
+
+    @supports (-ms-ime-align: auto) {
+        .form-label-group>label {
+            display: none;
+        }
+
+        .form-label-group input::-ms-input-placeholder {
+            color: #777;
+        }
+    }
+
+    /* Fallback for IE
+      -------------------------------------------------- */
+
+    @media all and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+        .form-label-group>label {
+            display: none;
+        }
+
+        .form-label-group input:-ms-input-placeholder {
+            color: #777;
+        }
+    }
+    #swal2-content{
+        text-align: left !important;
+    }
+}
+

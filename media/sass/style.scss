@@ -1,0 +1,299 @@
+@import "mixins";
+@import "variables";
+
+@media only screen and (max-width: 600px) {
+    .main-content {
+        width: 100% !important;
+    }
+
+    #tab-btn img {
+        width: 15vw !important;
+    }
+
+    .searchbar{
+        width: 90% !important;
+    }
+    .pincode{
+        .pins{
+            margin-right: 1% !important;
+        }
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .pincode{
+        .pins{
+            margin-right: 2% !important;
+        }
+    }
+}
+
+html,
+body {
+    height: 100% !important;
+}
+
+input,
+select,
+textarea {
+    height: 30px !important;
+    border: 1px solid var(--gray-lite) !important;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+}
+
+img#logo {
+    width: 200px;
+}
+
+img#passphoto {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.size-1 {
+    font-size: 1.5em;
+}
+
+.size-2 {
+    font-size: 2em;
+}
+
+.size-3 {
+    font-size: 3em;
+}
+
+.main-container {
+    margin: 0 auto;
+    padding: 2vw;
+    width: 90%;
+}
+
+.searchbar{
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 5vh;
+}
+
+*[border-left]{
+    border-left: 1px solid #E6ECED;
+}
+*[border-right]{
+    border-right: 1px solid #E6ECED;
+}
+
+.errormsg {
+    padding: 7px 20px;
+    text-align: center;
+    background: var(--danger);
+    color: var(--white);
+    margin-top: -10px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+
+a#tab-btn {
+    width: 100%;
+    padding: 18px;
+    border: transparent;
+    text-align: center;
+}
+
+#tab-btn i {
+    display: block;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#tab-btn img {
+    margin: 0 auto;
+    display: block;
+    width: 5vw;
+    margin-bottom: 20px;
+}
+
+.bubble {
+    position: absolute;
+    background: var(--danger);
+    width: 30px;
+    height: 30px;
+    padding-top: 3px;
+    border-radius: 50px;
+    margin-top: -1vw;
+    margin-left: 45%;
+    color: var(--white);
+}
+.otp-page{
+    background-image: url(../../media/img/login-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    .pincode{
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        .pins{
+            width: 70px;
+            height: 70px !important;
+            font-size: 1.6em;
+            border-radius: none !important;
+            padding-left: 30px;
+            padding-top: 5px;
+            margin-right: 10%;
+            border-radius: 5px;
+            margin-bottom: 40px;
+        }
+    }
+    .card{
+        background: rgba(255, 255, 255, 1);
+    }
+    .card-signin {
+        border: 0;
+        border-radius: 1rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    }
+
+    .card-signin .card-title {
+        margin-bottom: 2rem;
+        font-weight: 300;
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .declartation{
+        display: block;
+        font-size: 0.7em;
+    }
+    .card-signin .card-body {
+        padding: 2rem 2rem;
+    }
+
+    .form-signin {
+        width: 100%;
+    }
+    .magine-5{
+        margin-top: 5%;
+    }
+    .form-signin .btn {
+        font-size: 80%;
+        border-radius: 5rem;
+        letter-spacing: .1rem;
+        font-weight: bold;
+        padding: 1rem;
+        transition: all 0.2s;
+    }
+}
+
+.page-title {
+    font-size: 1.8em;
+    font-weight: 100;
+}
+
+a#backbtn {
+    color: var(--dark) !important;
+    margin-right: 20px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: var(--dark) !important;
+    border: none !important;
+    border-radius: 5px;
+    background-color: var(--gray-lite) !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, var(--gray-lite)), color-stop(100%, var(--gray-lite)));
+    background: -webkit-linear-gradient(top, var(--gray-lite) 0%, var(--gray-lite) 100%);
+    background: -moz-linear-gradient(top, var(--gray-lite) 0%, var(--gray-lite) 100%);
+    background: -ms-linear-gradient(top, var(--gray-lite) 0%, var(--gray-lite) 100%);
+    background: -o-linear-gradient(top, var(--gray-lite) 0%, var(--gray-lite) 100%);
+    background: linear-gradient(to bottom, var(--gray-lite) 0%, var(--gray-lite) 100%);
+}
+
+a.nav-link {
+    color: var(--dark);
+}
+
+.nav-link .active {
+    color: var(--white) !important;
+}
+
+.content-nav {
+    margin-top: 4vh;
+}
+
+.userinfo {
+    margin-right: 20px;
+
+    span {
+        margin-right: 20px;
+    }
+}
+
+*[float-right] {
+    float: right;
+}
+
+*[float-left] {
+    float: left;
+}
+*[border-top]{
+    border-top: 1px solid #E6ECED;
+}
+*[padding-top]{
+    padding-top: 20px;
+}
+
+/* DivTable.com */
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	//border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+@media screen {
+    #printSection {
+        display: none;
+    }
+  }
+  
+  @media print {
+    body > *:not(#printSection){
+      visibility:hidden;
+      display: none;
+    }
+    #printSection, #printSection * {
+      visibility:visible;
+    }
+    #printSection {
+      position:absolute;
+      left:0;
+      top:0;
+    }
+  }
+
+@import '../../public/root.style.scss';

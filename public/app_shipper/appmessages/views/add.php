@@ -1,0 +1,1 @@
+<div class="page-sample"><?php echo "ADD PAGE" ?></div>
